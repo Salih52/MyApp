@@ -23,7 +23,7 @@ id = "tsparticles";
 particlesOptions: any = {
         background: {
           color: {
-            value: "#0d47a1",
+            value: "#19191aff",
           },
         },
         fpsLimit: 120,

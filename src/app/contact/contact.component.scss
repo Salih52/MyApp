@@ -1,0 +1,32 @@
+.contact-section {
+  h2 {
+    font-weight: 700;
+  }
+
+  .form-control {
+    border-radius: 10px;
+    padding: 0.75rem;
+  }
+
+  button {
+    border-radius: 10px;
+    font-weight: 500;
+  }
+
+  .contact-info {
+    h5 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    p {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      text-decoration: none;
+      color: #0d6efd;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
