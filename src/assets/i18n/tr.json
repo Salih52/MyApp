@@ -1,0 +1,39 @@
+{
+  "home": {
+    "title": "Çeviri Demo",
+    "hello": "Merhaba, Ben ",
+    "text":"<strong>Angular</strong> ile modern ve kullanıcı dostu arayüzler geliştiriyor, <strong>Spring Boot</strong> ile güçlü ve güvenilir backend servisleri inşa ediyorum.<br /> Ayrıca <strong>Docker, PostgreSQL, Python</strong> gibi teknolojilerle projelerime esneklik ve ölçeklenebilirlik katıyor, her projede temel <strong>Bilgisayar Bilimi</strong> prensiplerini uygulamaya özen gösteriyorum."
+  },
+  "navbar": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "contact": "İletişim",
+    "language": "Dil",
+    "experience": "Deneyim",
+    "english": "İngilizce",
+    "turkish": "Türkçe"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "description":"<p>    <strong>Konya Teknik Üniversitesi</strong> Bilgisayar Mühendisliği mezunu, tutkulu ve detaylara önem veren bir yazılım geliştiricisiyim.     Yazılım geliştirme konusunda sağlam bir temele sahibim ve yenilikçi web uygulamaları geliştirmeye büyük ilgi duyuyorum.</p><p>    Stajım sırasında ve daha sonra <em>Kocaeli, Bilişim Vadisi</em>’nde yer alan     <strong>Solution Factory</strong>’de Junior Developer olarak çalışırken,    birçok gerçek proje üzerinde görev aldım.     Frontend tarafında <strong>Angular</strong>, backend tarafında ise     <strong>Spring Boot</strong> kullanarak full-stack web uygulamaları geliştirme ve bakım çalışmalarında yer aldım.    Bu deneyim, ölçeklenebilir ve sürdürülebilir yazılım çözümleri geliştirme becerilerimi önemli ölçüde geliştirdi.</p><p>    Son olarak, <strong>Ercal Group</strong>’ta tamamladığım stajda,    şirketin dahili <strong>CRM sistemlerini</strong> iyileştirme çalışmalarına katıldım.    Kritik modüllerin işlevselliğini ve performansını artırmaya yönelik geliştirmeler yaptım.</p><p>    Ayrıca kişisel ve akademik birçok projede görev aldım.    <strong>Java</strong>, <strong>Docker</strong>,     <strong>MySQL/PostgreSQL</strong>, <strong>TypeScript</strong> ve daha birçok teknolojide     kendimi geliştirmeye devam ediyorum.     Yeni teknolojiler öğrenmekten keyif alıyor, temiz mimari ve verimli kod ile     pratik ve gerçek dünyada karşılığı olan çözümler üretmeyi hedefliyorum.</p>",
+    "cv": "CV İndir",
+    "technologies": "Kullandığım Teknolojiler"
+  },
+  "contact": {
+    "title": "İletişim",
+    "description": "İş birlikleri, iş fırsatları veya sadece merhaba demek için benimle iletişime geçmekten çekinmeyin!",
+    "works":"(Evet, mesaj formu gerçekten çalışıyor! Mesajlarınız doğrudan e-posta adresime gönderiliyor. 😊 İletişime geçmekte özgürsünüz!)",
+    "name": "Adınız",
+    "email": "E-posta",
+    "message": "Mesajınız",
+    "send": "Mesaj Gönder",
+    "contact": "İletişim Bilgileri",
+    "findMe": "Beni bulabilirsiniz"
+  },
+    "experience": {
+    "title": "Deneyimim",
+    "solutionIn": "Çeşitli dahili projelere katkıda bulundum ve modern geliştirme iş akışlarında pratik deneyim kazandım.",
+    "ercalGroup": "Dahili CRM yazılım modüllerini geliştirdim ve iyileştirdim. Sistem performansını ve kullanılabilirliğini artırdım.",
+    "solutionFactory": "Angular ve Spring Boot kullanarak full-stack web uygulamaları geliştirdim. Hızlı tempolu bir ekip ortamında ölçeklenebilir, sürdürülebilir çözümler inşa ettim."
+    }
+}

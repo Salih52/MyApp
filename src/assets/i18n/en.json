@@ -1,0 +1,38 @@
+{
+  "home": {
+    "title": "Translation Demo",
+    "hello": "Hi, I'm ",
+    "text": "I specialize in <strong>Angular</strong> and have solid experience with <strong>Spring Boot</strong> for building robust backend services.<br /> I’ve also worked with <strong>Docker, PostgreSQL, Python</strong>, and apply core <strong>Computer Science</strong> principles to every project.<br />"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact",
+    "experience": "Experience",
+    "english": "English",
+    "turkish": "Turkish"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "<p>    I'm a passionate and detail-oriented Computer Engineering graduate from    <strong>Konya Technical University</strong>, with a strong foundation in software development and    a deep interest in building innovative web applications.  </p>  <p>    During my internship and later as a Junior Developer at    <strong>Solution Factory</strong>, located in <em>Bilişim Vadisi, Kocaeli</em>,    I contributed to several real-world projects. I was responsible for developing and maintaining    full-stack web applications using <strong>Angular</strong> on the frontend and    <strong>Spring Boot</strong> on the backend.    This experience enhanced my ability to build scalable and maintainable software solutions.  </p>  <p>    Most recently, I completed an internship at <strong>Ercal Group</strong>,    where I worked on improving the company’s internal <strong>CRM systems</strong>,    enhancing functionality and performance of critical modules.  </p>  <p>    I have also worked on various personal and academic projects, always striving to improve my    skills in <strong>Java</strong>, <strong>Docker</strong>,    <strong>MySQL/PostgreSQL</strong>, <strong>TypeScript</strong>, and more.    I enjoy learning new technologies and building practical, real-world solutions    with clean architecture and efficient code.  </p>",
+    "cv": "Download CV",
+    "technologies": "Technologies I Use"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "Feel free to reach out for collaborations, job opportunities, or just to say hi!",
+    "works":"(Yes, the message form really works! Your messages are sent directly to my email. 😊 Feel free to reach out!)",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "contact": "Contact Information",
+    "findMe": "You can find me on"
+  },
+  "experience": {
+    "title": "My Journey",
+    "solutionIn": "I contributed to various internal projects and gained hands-on experience in modern development workflows.",
+    "ercalGroup": "Developed and enhanced internal CRM software modules. Improved system performance and usability.",
+    "solutionFactory": "Developed full-stack web applications using Angular and Spring Boot. Built scalable, maintainable solutions in a fast-paced team environment."
+    }
+}

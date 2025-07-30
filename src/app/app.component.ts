@@ -1,6 +1,11 @@
 import { AfterViewInit, Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { slideInAnimation } from './route-animations';
+import {
+    TranslateService,
+    TranslatePipe,
+    TranslateDirective
+} from "@ngx-translate/core";
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -8,6 +13,12 @@ import { slideInAnimation } from './route-animations';
   animations: [slideInAnimation]
 })
 export class AppComponent implements AfterViewInit {
+
+  constructor(private translate: TranslateService) {
+        this.translate.addLangs(['tr', 'en']);
+        this.translate.setFallbackLang('en');
+        this.translate.use('en');
+    }
 
   ngAfterViewInit(): void {
     // Initialize AOS (Animate On Scroll) after the view has been initialized

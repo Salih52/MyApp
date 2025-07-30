@@ -1,54 +1,58 @@
 <div class="container py-5 contact-section text-white">
-  <h2 class="text-center mb-4">Contact Me</h2>
+  <h2 class="text-center mb-4">{{'contact.title' | translate}}</h2>
   <p class="text-center mb-5">
-    Feel free to reach out for collaborations, job opportunities, or just to say hi!
+    {{'contact.description' | translate}}
   </p>
+  <p class="text-center mb-5">{{'contact.works' | translate}}</p>
 
   <div class="row">
     <!-- Contact Form -->
     <div class="col-md-7 mb-4" data-aos="fade-right">
-      <form>
-        <div class="mb-3">
-          <label for="name" class="form-label">Your Name</label>
-          <input
-            type="text"
-            class="form-control"
-            id="name"
-            placeholder="Enter your name"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="email" class="form-label">Your Email</label>
-          <input
-            type="email"
-            class="form-control"
-            id="email"
-            placeholder="Enter your email"
-            required
-          />
-        </div>
-        <div class="mb-3">
-          <label for="message" class="form-label">Your Message</label>
-          <textarea
-            class="form-control"
-            id="message"
-            rows="5"
-            placeholder="Write your message"
-            required
-          ></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary px-4">Send Message</button>
-      </form>
+    <form (submit)="sendEmail($event)">
+  <div class="mb-3">
+    <label for="name" class="form-label">{{'contact.name' | translate}}</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      name="user_name"
+      placeholder="Enter your name"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">{{'contact.email' | translate}}</label>
+    <input
+      type="email"
+      class="form-control"
+      id="email"
+      name="user_email"
+      placeholder="Enter your email"
+      required
+    />
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">{{'contact.message' | translate}}</label>
+    <textarea
+      class="form-control"
+      id="message"
+      name="message"
+      rows="5"
+      placeholder="Write your message"
+      required
+    ></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary px-4">{{'contact.send' | translate}}</button>
+</form>
     </div>
 
     <!-- Contact Info -->
     <div class="col-md-5" data-aos="fade-left">
       <div class="contact-info p-4 bg-dark rounded shadow-sm">
-        <h5>Contact Information</h5>
-        <p><strong>Email:</strong> <a href="mailto:saliheliack@gmail.com">saliheliack&#64;gmail.com</a></p>
+        <h5>{{'contact.contact' | translate}}</h5>
+        <p><strong>{{'contact.email' | translate}}:</strong> <a href="mailto:saliheliack@gmail.com">saliheliack&#64;gmail.com</a></p>
         <hr />
-        <h6>Find me on:</h6>
+        <h6>{{'contact.findMe' | translate}}:</h6>
         <p>
           <a href="https://github.com/Salih52" target="_blank">GitHub</a> |
           <a href="https://www.linkedin.com/in/salih-elia%C3%A7ik-7b901221a/" target="_blank">LinkedIn</a> |
