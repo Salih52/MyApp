@@ -2,7 +2,7 @@
   "home": {
     "title": "Translation Demo",
     "hello": "Hi, I'm ",
-    "text": "I specialize in <strong>Angular</strong> and have solid experience with <strong>Spring Boot</strong> for building robust backend services.<br /> I’ve also worked with <strong>Docker, PostgreSQL, Python</strong>, and apply core <strong>Computer Science</strong> principles to every project.<br />"
+    "text": " I’m a <strong>passionate developer</strong> who loves crafting interactive, meaningful digital experiences.<br>  I thrive on <strong>solving complex challenges</strong> and transforming ideas into reality."
   },
   "navbar": {
     "home": "Home",
@@ -33,6 +33,8 @@
     "title": "My Journey",
     "solutionIn": "I contributed to various internal projects and gained hands-on experience in modern development workflows.",
     "ercalGroup": "Developed and enhanced internal CRM software modules. Improved system performance and usability.",
-    "solutionFactory": "Developed full-stack web applications using Angular and Spring Boot. Built scalable, maintainable solutions in a fast-paced team environment."
+    "solutionFactory": "Developed full-stack web applications using Angular and Spring Boot. Built scalable, maintainable solutions in a fast-paced team environment.",
+    "aug":"August",
+    "jul":"July"
     }
 }

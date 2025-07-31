@@ -1,96 +1,93 @@
 import { Component } from '@angular/core';
 import { NgParticlesService } from '@tsparticles/angular';
 import { Container, IOptions } from '@tsparticles/engine';
-import { MoveDirection, OutMode } from "@tsparticles/engine";
-import { loadSlim } from "@tsparticles/slim";
-
+import { MoveDirection, OutMode } from '@tsparticles/engine';
+import { loadSlim } from '@tsparticles/slim';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss']
+  styleUrls: ['./home.component.scss'],
 })
-
-
 export class HomeComponent {
-typedStrings: string[] = [
-  'A Junior Full-Stack Developer',
-  'An Angular Enthusiast',
-  'A Spring Boot Developer',
-  'An AI Hobbyist'
-];
+  typedStrings: string[] = [
+    'A Junior Full-Stack Developer',
+    'An Angular Enthusiast',
+    'A Spring Boot Developer',
+    'An AI Hobbyist',
+  ];
 
-id = "tsparticles";
-particlesOptions: any = {
-        background: {
-          color: {
-            value: "#19191aff",
-          },
+  id = 'tsparticles';
+  particlesOptions: any = {
+    background: {
+      color: {
+        value: '#19191aff',
+      },
+    },
+    fpsLimit: 120,
+    interactivity: {
+      events: {
+        onClick: {
+          enable: true,
+          mode: 'push',
         },
-        fpsLimit: 120,
-        interactivity: {
-            events: {
-                onClick: {
-                    enable: true,
-                    mode: "push",
-                },
-                onHover: {
-                    enable: true,
-                    mode: "repulse",
-                },
-                resize: {
-                    enable: true,
-                },
-            },
-            modes: {
-                push: {
-                    quantity: 4,
-                },
-                repulse: {
-                    distance: 200,
-                    duration: 0.4,
-                },
-            },
+        onHover: {
+          enable: true,
+          mode: 'repulse',
         },
-        particles: {
-            color: {
-                value: "#ffffff"
-            },
-            links: {
-                color: "#ffffff",
-                distance: 150,
-                enable: true,
-                opacity: 0.5,
-                width: 1,
-            },
-            move: {
-                direction: MoveDirection.none,
-                enable: true,
-                outModes: {
-                    default: OutMode.bounce,
-                },
-                random: false,
-                speed: 6,
-                straight: false,
-            },
-            number: {
-                density: {
-                    enable: true,
-                },
-                value: 80,
-            },
-            opacity: {
-                value: 0.5
-            },
-            shape: {
-                type: "circle",
-            },
-            size: {
-                value: { min: 1, max: 5 }
-            },
+        resize: {
+          enable: true,
         },
-        detectRetina: true,
-    };
-    constructor(private readonly ngParticlesService: NgParticlesService) {}
+      },
+      modes: {
+        push: {
+          quantity: 4,
+        },
+        repulse: {
+          distance: 200,
+          duration: 0.4,
+        },
+      },
+    },
+    particles: {
+      color: {
+        value: '#ffffff',
+      },
+      links: {
+        color: '#ffffff',
+        distance: 150,
+        enable: true,
+        opacity: 0.5,
+        width: 1,
+      },
+      move: {
+        direction: MoveDirection.none,
+        enable: true,
+        outModes: {
+          default: OutMode.bounce,
+        },
+        random: false,
+        speed: 6,
+        straight: false,
+      },
+      number: {
+        density: {
+          enable: true,
+        },
+        value: 80,
+      },
+      opacity: {
+        value: 0.5,
+      },
+      shape: {
+        type: 'circle',
+      },
+      size: {
+        value: { min: 1, max: 5 },
+      },
+    },
+    detectRetina: true,
+  };
+  constructor(private readonly ngParticlesService: NgParticlesService) {}
 
   ngOnInit(): void {
     this.ngParticlesService.init(async (engine) => {

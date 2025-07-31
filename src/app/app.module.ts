@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {provideTranslateLoader} from "@ngx-translate/core";
-import {provideHttpClient} from "@angular/common/http";
-import {provideTranslateHttpLoader} from "@ngx-translate/http-loader";
+import { provideTranslateLoader } from '@ngx-translate/core';
+import { provideHttpClient } from '@angular/common/http';
+import { provideTranslateHttpLoader } from '@ngx-translate/http-loader';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -22,7 +22,7 @@ import { provideTranslateService, TranslateModule } from '@ngx-translate/core';
     NavbarComponent,
     AboutComponent,
     ContactComponent,
-    ExperinceComponent
+    ExperinceComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,17 +30,17 @@ import { provideTranslateService, TranslateModule } from '@ngx-translate/core';
     NgxTypedJsModule,
     NgxParticlesModule,
     BrowserAnimationsModule,
-    TranslateModule
+    TranslateModule,
   ],
   providers: [
-     provideHttpClient(),
+    provideHttpClient(),
     provideTranslateService({
       loader: provideTranslateHttpLoader({
         prefix: '/assets/i18n/',
-        suffix: '.json'
-      })
-    })
+        suffix: '.json',
+      }),
+    }),
   ],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

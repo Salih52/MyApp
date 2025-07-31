@@ -2,7 +2,7 @@
   "home": {
     "title": "Çeviri Demo",
     "hello": "Merhaba, Ben ",
-    "text":"<strong>Angular</strong> ile modern ve kullanıcı dostu arayüzler geliştiriyor, <strong>Spring Boot</strong> ile güçlü ve güvenilir backend servisleri inşa ediyorum.<br /> Ayrıca <strong>Docker, PostgreSQL, Python</strong> gibi teknolojilerle projelerime esneklik ve ölçeklenebilirlik katıyor, her projede temel <strong>Bilgisayar Bilimi</strong> prensiplerini uygulamaya özen gösteriyorum."
+    "text":"Etkileşimli ve anlamlı dijital deneyimler oluşturmayı seven <strong>tutkulu bir geliştiriciyim</strong>.<br>  Karmaşık sorunları çözmekten keyif alır, fikirleri gerçeğe dönüştürmek için çalışırım."
   },
   "navbar": {
     "home": "Ana Sayfa",
@@ -34,6 +34,8 @@
     "title": "Deneyimim",
     "solutionIn": "Çeşitli dahili projelere katkıda bulundum ve modern geliştirme iş akışlarında pratik deneyim kazandım.",
     "ercalGroup": "Dahili CRM yazılım modüllerini geliştirdim ve iyileştirdim. Sistem performansını ve kullanılabilirliğini artırdım.",
-    "solutionFactory": "Angular ve Spring Boot kullanarak full-stack web uygulamaları geliştirdim. Hızlı tempolu bir ekip ortamında ölçeklenebilir, sürdürülebilir çözümler inşa ettim."
+    "solutionFactory": "Angular ve Spring Boot kullanarak full-stack web uygulamaları geliştirdim. Hızlı tempolu bir ekip ortamında ölçeklenebilir, sürdürülebilir çözümler inşa ettim.",
+    "aug":"Ağustos",
+    "jul":"Temmuz"
     }
 }
